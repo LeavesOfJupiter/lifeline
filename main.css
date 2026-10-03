@@ -3,12 +3,14 @@ Will be using some neocities for this */
 
 
 aside {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 22px;
     background-color: bisque;
-    width: 200px;
-    padding: 20px;
-    font-size: smaller;
-   text-align: center;
-   
 }
 
 main {
