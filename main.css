@@ -1,9 +1,25 @@
 /* this is where we put in all of the basic layout, decide on color, and archival stuff. 
 Will be using some neocities for this */
 
-
-body{
-    display: flex;
+header{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 30px;
 }
 
+nav{
+    background: #f0b429;
+background: linear-gradient(180deg, rgba(240, 180, 41, 1) 0%, rgba(255, 240, 120, 1) 100%);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: larger;
+    
+}
 
+aside{
+    width: 200;
+    height: 200;
+    position: sticky;
+    padding-left: 1400px;
+    background-color: blanchedalmond;
+}
