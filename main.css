@@ -1,5 +1,8 @@
 /* this is where we put in all of the basic layout, decide on color, and archival stuff. 
 Will be using some neocities for this */
+* {
+    box-sizing: border-box;
+  }
 
 header{
     text-align: center;
@@ -15,12 +18,19 @@ background: linear-gradient(180deg, rgba(240, 180, 41, 1) 0%, rgba(255, 240, 120
     font-size: larger;
     
 }
+.container {  
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 aside{
-    width: 200;
-    height: 200;
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
     position: sticky;
-    padding-left: 1400px;
-    border: #f0b429;
-    background-color: blanchedalmond;
+}
+main{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
 }
